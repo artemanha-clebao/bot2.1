@@ -1,8 +1,8 @@
 
 require('dotenv-safe').config()
 
-const {MercadoBitcoin} = require('./src/MercadoBitcoin')
-const {MercadoBitcoinTrade} = require('./src/MercadoBitcoinTrade')
+const {MercadoBitcoin} = require('./MercadoBitcoin')
+const {MercadoBitcoinTrade} = require('./MercadoBitcoinTrade')
 
 const TIPO_COMPRA   = 1;
 const TIPO_VENDA    = 2;
